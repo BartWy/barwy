@@ -1,0 +1,134 @@
+body{
+    
+font-family: 'Lato', sans-serif;
+}
+
+
+
+section{
+   height: auto;
+}
+
+
+aside{
+    
+    height: auto;
+}
+
+footer{
+    max-width: 100%;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+#form{
+    display: none;
+}
+
+#form1{
+    display: none;
+}
+#form2{
+    display: none;
+}
+#quest{
+    display: none;
+}
+
+
+#bell{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#bell1{
+   display: flex;
+    height: 10px;
+    width: 10px; 
+}
+
+
+img{
+    
+width: 200px;
+height: 200px;
+margin-left: auto;
+}
+
+
+#pic{
+    margin-left: auto;
+    padding: 5x;
+    border: 3px, dotted, red;
+}
+.col-md-8{
+    padding-top: 40px;
+}
+#pic1{
+    position: relative;
+   max-width: 100%;
+    max-height: auto;
+    
+}
+.write{
+    position: absolute;
+    right: 10%;
+    top:30%;
+}
+#nap{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    color:black;
+}
+
+#pic1 form{
+    position: absolute;
+    right: 10%;
+    top:10%;}
+
+.container-fluid{
+    padding: 0px;
+}
+
+
+.nav navbar-nav{
+    padding: 10px;
+}
+
+#abotus{
+    position: absolute;
+   
+    right: 9%;
+    top:7%;
+}
+
+
+
+#aboutus1{
+    
+    text-align: center;
+    border: 1px solid black;
+    color:black;
+    height: 380px;
+    width: 300px;
+    padding: 20px;
+    display: none;
+    
+}
+#right_nav{
+    padding-right: 20px;
+}
+
+#logo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+
+
+
+    

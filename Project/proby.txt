@@ -1,0 +1,38 @@
+<div class="list-group" id='aside'>
+                        <ul class="nav navbar-nav">
+
+                            <li class="active"> <a href="#">Twuj profil</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Szukaj w swojej okolicy
+                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href>Wspulny spacer</a></li>
+                                    <li><a href>Spotkanie</a></li>
+                                    <li><a href>Aktywnie</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Czat</a></li>
+                            <li><a href="#">Blog</a></li>
+
+
+
+                        </ul>
+                </div>
+                
+                
+                
+                
+                
+                <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</div>
+
+
+
+stopka &reg; barwy 2017;

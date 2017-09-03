@@ -1,6 +1,23 @@
 body {
-    background-color: aliceblue
+    background-color: lightgrey;
 }
 #prom{
     display: table-row;
 }
+
+#prom{
+    
+    color: green;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px solid green; 
+    color: green;
+    
+}
+
