@@ -40,9 +40,7 @@ $(document).ready(function () {
                 $("#form").slideUp();
                 $("#form2").slideUp();
                 $("#aboutus1").slideUp();
-                $('#nap').animate({
-                    right: '10%'  
-                })
+               
                   $('#heart').animate({
                     right: '2%',
                     opacity: 1,

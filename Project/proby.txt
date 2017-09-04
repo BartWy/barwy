@@ -36,3 +36,4 @@
 
 
 stopka &reg; barwy 2017;
+<a href="views/profil.html"/>
