@@ -1,14 +1,4 @@
-body{
-    
-   
-}
 
-footer{
-    
-}
-
-
-}
 .container-fluid{
     position: relative;
 }
@@ -32,9 +22,11 @@ footer{
     position: relative;
 }
 
-#dataprof{
-    
-    margin: 10px;
-    padding: 10px;
+footer{
+    max-width: 100%;
     text-align: center;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    background-color: black;
 }

@@ -49,6 +49,8 @@
 
 
                         </li>
+                        <li><a href="#"><span class="glyphicon glyphicon-comment"></span> Czat</a></li>
+
                         <form class="navbar-form navbar-right">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Szukaj">
@@ -114,6 +116,7 @@
 
                         <button type="button" class="btn btn-default">Edytuj</button>
                         <button type="button" class="btn btn-default">Wyloguj</button>
+
                     </div>
                 </form>
             </div>
@@ -123,36 +126,36 @@
 
 
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d148785.12734559202!2d18.69002715!3d54.36108734999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1504520035804" width="800" height="650" frameborder="0" style="border:3" allowfullscreen></iframe>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+            
+            <p>Kliknij guzik celem odczytania Twojej lokalizacji</p>
+            <button onclick="getLocation()">Wciśnij</button>
+            <p id="demo"></p>
 
-
-        
-    </div>
-
-
-
-
-    <footer>
-
-        <div class="container-fluid">
-            <div>stopka &reg; barwy 2017;
-                <a id='logo' class="navbar-brand" href="#">
-                               Baby Love <span  class="glyphicon glyphicon-heart"/>
-                            </a></div>
         </div>
 
-    </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src='../js/app_profile.js'></script>
+
+
+
+
+
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwHgfJ609T56cEtE-290jBcIyRYnYiXTQ&callback=initMap">
+    </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src='../js/app_profile.js'></script>
+ 
 
 </body>
 
- 
+
 
 
 
